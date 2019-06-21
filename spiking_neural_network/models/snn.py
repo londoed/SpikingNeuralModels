@@ -7,7 +7,7 @@ class SpikingNeuralNetwork():
     """
     def __init__(self, num_input, hidden_layers, num_output, neuron, training):
         self.layers = []
-        self.neuron_class = neuron_class
+        self.neuron = neuron
         self.training = training
         self.initialize(num_input, hidden_layers, num_output)
 
